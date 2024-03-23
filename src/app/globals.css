@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border scroll-smooth list-none;
+  text-decoration: none;
+  list-style: none;
+}
+
+section {
+  @apply py-[5%] px-[10%]
+}
